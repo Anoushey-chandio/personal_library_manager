@@ -99,23 +99,7 @@ elif choice == "🔍 Search Book":
                 with col1:
                     st.write(f"📖 **{book['title']}** by {book['author']} ({book['year']}) - {book['genre']}")
                 
-                with col2:
-                    # Checkbox to mark book as read/unread
-                    new_read_status = st.checkbox("Read", value=book["read"], key=book["title"])
-
-                # Button to update read status
-                if st.button(f"Update '{book['title']}' Read Status", key=f"update_{book['title']}"):
-                    book_manager.update_book(
-                        old_title=book["title"],
-                        new_title=book["title"],
-                        new_author=book["author"],
-                        new_year=book["year"],
-                        new_genre=book["genre"],
-                        new_read=new_read_status
-                    )
-                    st.success(f"Updated '{book['title']}' to {'Read' if new_read_status else 'Unread'}! ✅")
-        else:
-            st.warning("No matching books found. ❌")
+               
 
 elif choice == "✏ Update Book":
     st.subheader("Update Book Details")
