@@ -1,0 +1,51 @@
+[
+    {
+        "title": "Rich Dad Poor Dad",
+        "author": "Robert Kiyosaki",
+        "year": "1997",
+        "genre": "Motivational",
+        "read": true
+    },
+    {
+        "title": "The 7 Habits of Highly Effective People",
+        "author": "Stephen R. Covey",
+        "year": "1989",
+        "genre": "Self-Improvement",
+        "read": false
+    },
+    {
+        "title": "Think and Grow Rich",
+        "author": "Napoleon Hill",
+        "year": "1937",
+        "genre": "Motivational",
+        "read": true
+    },
+    {
+        "title": "Atomic Habits",
+        "author": "James Clear",
+        "year": "2018",
+        "genre": "Self-Development",
+        "read": false
+    },
+    {
+        "title": "The Power of Now",
+        "author": "Eckhart Tolle",
+        "year": "1997",
+        "genre": "Spirituality",
+        "read": true
+    },
+    {
+        "title": "You Can Win",
+        "author": "Shiv Khera",
+        "year": "1998",
+        "genre": "Self-Help",
+        "read": true
+    },
+    {
+        "title": "Jannat Key Pattay",
+        "author": "Nimrah Ahmed",
+        "year": "2005",
+        "genre": "fictional , motivational",
+        "read": true
+    }
+]

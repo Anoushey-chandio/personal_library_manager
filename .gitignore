@@ -1,0 +1,15 @@
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environment
+myenv/
+venv/
+.env/
+
+# Ignore Streamlit and system files
+.streamlit/
+.DS_Store
+
+# Ignore JSON storage file (if you don't want to track book data)
+
